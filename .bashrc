@@ -122,5 +122,6 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
-alias pip="python3.6 -m pip"
-alias python="python3.6"
+
+#alias pip="python3.6 -m pip"
+#alias python="python3.6"
